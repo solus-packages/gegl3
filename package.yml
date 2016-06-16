@@ -1,6 +1,6 @@
 name       : gegl3
 version    : 0.3.8
-release    : 14
+release    : 15
 source     :
     - http://download.gimp.org/pub/gegl/0.3/gegl-0.3.8.tar.bz2 : 06ca9e67a59da026eb941b9d323269d7c19a922f1e478acdd3791a0eef8b229b
 license    :
@@ -23,6 +23,7 @@ builddeps  :
     - pkgconfig(gdk-pixbuf-2.0)
     - vala
     - libjpeg-turbo-devel
+libsplit   : no
 description: |
     GEGL provides infrastructure to do demand based cached non destructive image editing on larger than RAM buffers. Through babl it provides support for a wide range of color models and pixel storage formats for input and output.
 setup      : |
