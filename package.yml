@@ -1,6 +1,6 @@
 name       : gegl3
 version    : 0.3.8
-release    : 15
+release    : 16
 source     :
     - http://download.gimp.org/pub/gegl/0.3/gegl-0.3.8.tar.bz2 : 06ca9e67a59da026eb941b9d323269d7c19a922f1e478acdd3791a0eef8b229b
 license    :
@@ -10,19 +10,21 @@ summary    : GEGL (Generic Graphics Library) is a graph based image processing f
 component  : multimedia.graphics
 builddeps  :
     - pkgconfig(babl)
-    - pkgconfig(libpng15)
-    - pkgconfig(librsvg-2.0)
-    - pkgconfig(pangocairo)
-    - pkgconfig(json-glib-1.0)
-    - pkgconfig(libavfilter)
-    - pkgconfig(sdl2)
-    - pkgconfig(lcms2)
-    - pkgconfig(libv4l2)
     - pkgconfig(exiv2)
-    - pkgconfig(libwebp)
     - pkgconfig(gdk-pixbuf-2.0)
-    - vala
+    - pkgconfig(json-glib-1.0)
+    - pkgconfig(lcms2)
+    - pkgconfig(libavfilter)
+    - pkgconfig(libpng15)
+    - pkgconfig(libraw)
+    - pkgconfig(librsvg-2.0)
+    - pkgconfig(libv4l2)
+    - pkgconfig(libwebp)
+    - pkgconfig(pangocairo)
+    - pkgconfig(sdl2)
+    - jasper-devel
     - libjpeg-turbo-devel
+    - vala
 libsplit   : no
 description: |
     GEGL provides infrastructure to do demand based cached non destructive image editing on larger than RAM buffers. Through babl it provides support for a wide range of color models and pixel storage formats for input and output.
