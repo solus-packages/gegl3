@@ -233,7 +233,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="16">gegl3</Dependency>
+            <Dependency release="20">gegl3</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/</Path>
@@ -252,8 +252,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="16">
-            <Date>2016-08-23</Date>
+        <Update release="20">
+            <Date>2017-02-22</Date>
             <Version>0.3.8</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
