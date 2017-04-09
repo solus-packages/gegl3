@@ -166,6 +166,7 @@ libgegl-0.3.so.0:gegl_curve_num_points
 libgegl-0.3.so.0:gegl_curve_set_point
 libgegl-0.3.so.0:gegl_datafiles_check_extension
 libgegl-0.3.so.0:gegl_datafiles_read_directories
+libgegl-0.3.so.0:gegl_dither_method_get_type
 libgegl-0.3.so.0:gegl_dot_node_to_png
 libgegl-0.3.so.0:gegl_dot_node_to_png_default
 libgegl-0.3.so.0:gegl_dot_util_add_connection
@@ -362,6 +363,7 @@ libgegl-0.3.so.0:gegl_operation_context_take_object
 libgegl-0.3.so.0:gegl_operation_create_pad
 libgegl-0.3.so.0:gegl_operation_detect
 libgegl-0.3.so.0:gegl_operation_filter_get_type
+libgegl-0.3.so.0:gegl_operation_find_property
 libgegl-0.3.so.0:gegl_operation_get_bounding_box
 libgegl-0.3.so.0:gegl_operation_get_cached_region
 libgegl-0.3.so.0:gegl_operation_get_format
