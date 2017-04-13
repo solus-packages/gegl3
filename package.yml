@@ -1,6 +1,6 @@
 name       : gegl3
 version    : 0.3.14
-release    : 21
+release    : 22
 source     :
     - https://download.gimp.org/pub/gegl/0.3/gegl-0.3.14.tar.bz2 : 09f5e2e6899697641d4660e3e274aed696f5bacc96ba389ac77674ee1156590a
 license    :
