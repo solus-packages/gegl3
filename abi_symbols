@@ -206,7 +206,6 @@ libgegl-0.3.so.0:gegl_gio_datauri_get_content_type
 libgegl-0.3.so.0:gegl_gio_open_input_stream
 libgegl-0.3.so.0:gegl_gio_open_output_stream
 libgegl-0.3.so.0:gegl_gio_uri_is_datauri
-libgegl-0.3.so.0:gegl_graph
 libgegl-0.3.so.0:gegl_graph_build
 libgegl-0.3.so.0:gegl_graph_dump_outputs
 libgegl-0.3.so.0:gegl_graph_dump_request
@@ -264,7 +263,6 @@ libgegl-0.3.so.0:gegl_module_query_module
 libgegl-0.3.so.0:gegl_module_register_type
 libgegl-0.3.so.0:gegl_module_set_load_inhibit
 libgegl-0.3.so.0:gegl_module_state_name
-libgegl-0.3.so.0:gegl_node
 libgegl-0.3.so.0:gegl_node_add_child
 libgegl-0.3.so.0:gegl_node_add_pad
 libgegl-0.3.so.0:gegl_node_blit
@@ -370,6 +368,7 @@ libgegl-0.3.so.0:gegl_operation_get_format
 libgegl-0.3.so.0:gegl_operation_get_invalidated_by_change
 libgegl-0.3.so.0:gegl_operation_get_key
 libgegl-0.3.so.0:gegl_operation_get_name
+libgegl-0.3.so.0:gegl_operation_get_op_version
 libgegl-0.3.so.0:gegl_operation_get_property_key
 libgegl-0.3.so.0:gegl_operation_get_required_for_output
 libgegl-0.3.so.0:gegl_operation_get_source_format

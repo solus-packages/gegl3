@@ -2,8 +2,8 @@
     <Source>
         <Name>gegl3</Name>
         <Packager>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <License>LGPL-3.0</License>
@@ -47,6 +47,7 @@
             <Path fileType="library">/usr/lib64/gegl-0.3/svg-load.so</Path>
             <Path fileType="library">/usr/lib64/gegl-0.3/text.so</Path>
             <Path fileType="library">/usr/lib64/gegl-0.3/transformops.so</Path>
+            <Path fileType="library">/usr/lib64/gegl-0.3/v4l.so</Path>
             <Path fileType="library">/usr/lib64/gegl-0.3/vector-fill.so</Path>
             <Path fileType="library">/usr/lib64/gegl-0.3/vector-stroke.so</Path>
             <Path fileType="library">/usr/lib64/gegl-0.3/webp-load.so</Path>
@@ -65,7 +66,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="22">gegl3</Dependency>
+            <Dependency release="23">gegl3</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/</Path>
@@ -84,12 +85,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="22">
-            <Date>2017-04-13</Date>
-            <Version>0.3.14</Version>
+        <Update release="23">
+            <Date>2017-10-08</Date>
+            <Version>0.3.20</Version>
             <Comment>Packaging update</Comment>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>
