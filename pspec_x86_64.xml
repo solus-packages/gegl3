@@ -2,8 +2,8 @@
     <Source>
         <Name>gegl3</Name>
         <Packager>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>GPL-3.0</License>
         <License>LGPL-3.0</License>
@@ -22,6 +22,7 @@
         <Files>
             <Path fileType="library">/usr/lib64/gegl-0.3/ff-load.so</Path>
             <Path fileType="library">/usr/lib64/gegl-0.3/ff-save.so</Path>
+            <Path fileType="library">/usr/lib64/gegl-0.3/gegl-common-gpl3.so</Path>
             <Path fileType="library">/usr/lib64/gegl-0.3/gegl-common.so</Path>
             <Path fileType="library">/usr/lib64/gegl-0.3/gegl-core.so</Path>
             <Path fileType="library">/usr/lib64/gegl-0.3/gegl-generated.so</Path>
@@ -66,7 +67,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="23">gegl3</Dependency>
+            <Dependency release="24">gegl3</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/</Path>
@@ -85,12 +86,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="23">
-            <Date>2017-10-08</Date>
-            <Version>0.3.20</Version>
+        <Update release="24">
+            <Date>2018-01-24</Date>
+            <Version>0.3.28</Version>
             <Comment>Packaging update</Comment>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
