@@ -5,8 +5,8 @@
             <Name>Pierre-Yves</Name>
             <Email>pyu@riseup.net</Email>
         </Packager>
-        <License>GPL-3.0</License>
-        <License>LGPL-3.0</License>
+        <License>GPL-3.0-or-later</License>
+        <License>LGPL-3.0-or-later</License>
         <PartOf>multimedia.graphics</PartOf>
         <Summary xml:lang="en">GEGL (Generic Graphics Library) is a graph based image processing framework.</Summary>
         <Description xml:lang="en">GEGL provides infrastructure to do demand based cached non destructive image editing on larger than RAM buffers. Through babl it provides support for a wide range of color models and pixel storage formats for input and output.
@@ -67,7 +67,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="24">gegl3</Dependency>
+            <Dependency release="25">gegl3</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/</Path>
@@ -86,9 +86,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="24">
-            <Date>2018-01-24</Date>
-            <Version>0.3.28</Version>
+        <Update release="25">
+            <Date>2018-03-24</Date>
+            <Version>0.3.30</Version>
             <Comment>Packaging update</Comment>
             <Name>Pierre-Yves</Name>
             <Email>pyu@riseup.net</Email>

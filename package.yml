@@ -1,11 +1,11 @@
 name       : gegl3
-version    : 0.3.28
-release    : 24
+version    : 0.3.30
+release    : 25
 source     :
-    - https://download.gimp.org/pub/gegl/0.3/gegl-0.3.28.tar.bz2 : 152f87604a5a191775329dfb63764efa1d5c32403d1438da68e242f96b7d23ff
+    - https://download.gimp.org/pub/gegl/0.3/gegl-0.3.30.tar.bz2 : f8b4a93ad2c5187efcc7d9a665ef626a362587eb701eebccf21b13616791e551
 license    :
-    - GPL-3.0
-    - LGPL-3.0
+    - GPL-3.0-or-later
+    - LGPL-3.0-or-later
 component  : multimedia.graphics
 libsplit   : no
 summary    : GEGL (Generic Graphics Library) is a graph based image processing framework.
