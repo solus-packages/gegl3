@@ -614,6 +614,7 @@ libgegl-0.3.so.0:gegl_tile_backend_swap_get_type
 libgegl-0.3.so.0:gegl_tile_backend_unlink_swap
 libgegl-0.3.so.0:gegl_tile_cache_destroy
 libgegl-0.3.so.0:gegl_tile_cache_init
+libgegl-0.3.so.0:gegl_tile_damage
 libgegl-0.3.so.0:gegl_tile_dup
 libgegl-0.3.so.0:gegl_tile_entry_destroy
 libgegl-0.3.so.0:gegl_tile_entry_new
@@ -634,14 +635,17 @@ libgegl-0.3.so.0:gegl_tile_handler_chain_bind
 libgegl-0.3.so.0:gegl_tile_handler_chain_get_first
 libgegl-0.3.so.0:gegl_tile_handler_chain_get_type
 libgegl-0.3.so.0:gegl_tile_handler_create_tile
+libgegl-0.3.so.0:gegl_tile_handler_damage_rect
 libgegl-0.3.so.0:gegl_tile_handler_dup_tile
 libgegl-0.3.so.0:gegl_tile_handler_empty_get_type
 libgegl-0.3.so.0:gegl_tile_handler_empty_new
 libgegl-0.3.so.0:gegl_tile_handler_get_type
 libgegl-0.3.so.0:gegl_tile_handler_log_get_type
 libgegl-0.3.so.0:gegl_tile_handler_set_source
+libgegl-0.3.so.0:gegl_tile_handler_zoom_get_total
 libgegl-0.3.so.0:gegl_tile_handler_zoom_get_type
 libgegl-0.3.so.0:gegl_tile_handler_zoom_new
+libgegl-0.3.so.0:gegl_tile_handler_zoom_reset_stats
 libgegl-0.3.so.0:gegl_tile_is_stored
 libgegl-0.3.so.0:gegl_tile_lock
 libgegl-0.3.so.0:gegl_tile_mark_as_stored
@@ -659,6 +663,7 @@ libgegl-0.3.so.0:gegl_tile_storage_new
 libgegl-0.3.so.0:gegl_tile_storage_remove_handler
 libgegl-0.3.so.0:gegl_tile_store
 libgegl-0.3.so.0:gegl_tile_unlock
+libgegl-0.3.so.0:gegl_tile_unlock_no_void
 libgegl-0.3.so.0:gegl_tile_unref
 libgegl-0.3.so.0:gegl_tile_void
 libgegl-0.3.so.0:gegl_to_dot
